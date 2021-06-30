@@ -1,0 +1,3 @@
+transcriptional_initiation_gfp,GENE_gfp+RNAP,OPEN_GENE_gfp,0,inf;
+transcription_gfp,OPEN_GENE_gfp+195*M_gtp_c+157*M_ctp_c+157*M_utp_c+208*M_atp_c+717*M_h2o_c,mRNA_gfp+GENE_gfp+RNAP+717*M_ppi_c,0,inf;
+mRNA_degradation_gfp,mRNA_gfp,195*M_gmp_c+157*M_cmp_c+157*M_ump_c+208*M_amp_c,0,inf;

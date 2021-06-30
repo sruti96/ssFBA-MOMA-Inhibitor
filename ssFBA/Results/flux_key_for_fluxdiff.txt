@@ -1,0 +1,51 @@
+#gp		M	->	Maltose			
+#pgm	G1p	->	G6P				
+#hk	    Glc	->	G6P				
+#pgi	G6P	->	F6P				
+#pfk	F6P	->	F16P				
+#fdp	F16P	->	F6P				
+#fbaA	F16P	->	DHAP	+	G3P		
+#tpiA	DHAP	->	G3P				
+#gapA	G3P	->	13DPG				
+#pgk	13DPG	->	3PG				
+#gpm	3PG	->	2PG				
+#eno	2PG	->	PEP				
+#pyk	PEP	->	PYR				
+#pck	OAA	->	PEP				
+#ppc	PEP	->	OAA				
+#pdh	PYR	->	ACA				
+#pps	PYR	->	PEP				
+#zwf	G6P	->	6PGL				
+#pgl	6PGL	->	6PGC				
+#gnd	6PGC	->	ru5p				
+#rpe	ru5P	->	xu5P				
+#rpi	r5p	->	ru5P				
+#talAB	g3p	+	s7P	->	e4p	+	f6p
+#tkt1	r5p	+	xu5p	->	g3p	+	s7p
+#tkt2	e4p	+	xu5p	->	f6p	+	g3p
+#edd	6pgc	->	2kddg6p				
+#eda	2ddg6p	->	g3p	+	pyr		
+#gltA	ACA	+	OAA	->	cit		
+#acn	cit	->	icit				
+#icd	icit	->	akg				
+#sucAB	akg	->	succoa				
+#sucCD	succoa	->	succ				
+#sdh	succ	->	fum				
+#frd	fum	->	succ				
+#fum	fum	->	mal				
+#mdh	mal	->	oaa				
+#aceA	icit	->	glx	+	succ		
+#aceB	ACA	+	glx	->	mal		
+#maeAB	mal	->	pyr				
+#ackA	actp	->	ac				
+#ldh	pyr	->	lac											
+#atp
+#GLU
+#akg
+#r5P
+#e4p
+#3pg
+#pep
+#pyr
+#aca
+#oaa				
