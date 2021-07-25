@@ -10,12 +10,12 @@ To run the scripts, clone this repository using the command:
 
 	git clone https://github.com/sruti96/ssFBA-MOMA-Inhibitor
 
-[Julia](https://www.julialang.org) v1.5 or greater must be installed on your machine. In addition, the following packages are required: ``GLPK.jl``, ``DelimitedFiles.jl``, ``TOML.jl``, ``CSV.jl``, ``DataFrames.jl``, ``Logging.jl``, ``Gurobi.jl``, ``Dierckx.jl``, ``Convex.jl``, ``PyPlot.jl``.
+[Julia](https://www.julialang.org) v1.5 or greater must be installed on your machine. In addition, the following packages are required: ``GLPK.jl``, ``DelimitedFiles.jl``, ``TOML.jl``, ``CSV.jl``, ``DataFrames.jl``, ``Logging.jl``, ``Gurobi.jl``, ``Dierckx.jl``, ``Convex.jl``, ``PyPlot.jl``. If not found, these packages will be installed when the code is run for the first time.
 
 ### Scripts
 
 
-In the ``src`` directory, there are two subdirectories ``ssFBA`` and ``MOMA`` which contain the code for the sequence specific FBA model and the MOMA model.
+In the ``src`` directory, there are two subdirectories ``ssFBA`` and ``MOMA`` which contain codes for sequence specific FBA and MOMA.
 
 The subdirectories contain scripts to run or analyze the problem:
 
