@@ -89,7 +89,7 @@ function Bounds_TTA(data_dictionary,TXTL_dictionary,species_array,idx)
   SBA[energy_idx[energy_id_pos],1] .= 0.0.*energy_flux[idx,energy_id_pos]
   SBA[energy_idx[energy_id_pos],2] .= data_dictionary["ENERGY_pos"][energy_id_pos] .* energy_flux[idx,energy_id_pos]
   # SBA[energy_idx[energy_id_neg],1] .= max.(-species[energy_idx[energy_id_neg]],data_dictionary["ENERGY_neg"][energy_id_neg] .* energy_flux[idx,energy_id_neg])
-  # SBA[energy_idx[energy_id_neg],2] .= max.(-species[energy_idx[energy_id_neg]],0.0.*energy_flux[idx,energy_id_neg])
+  SBA[energy_idx[energy_id_neg],2] .= max.(-species[energy_idx[energy_id_neg]],0.0.*energy_flux[idx,energy_id_neg])
 
   #reducing metabolites
   reducing_id_pos = findall(reducing_flux[idx,:].>0.0)

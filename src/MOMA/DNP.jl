@@ -52,10 +52,7 @@ function solve_dynamic_problem(dt,tEND,case)
     number_of_species, number_of_fluxes = size(data_dictionary["stoichiometric_matrix"])
 
     data_dictionary["Enzyme_sample"] = 1.25 + rand(1)[1]*(0.5)
-	# data_dictionary["Enzyme_sample"] = 1.25
-
 	sample = 1.5 + rand(1)[1]*(0.5)
-	# sample = 1.5
     data_dictionary["AA_pos"] = sample .*ones(20,1)
     data_dictionary["AA_neg"] = sample .*ones(20,1)
     data_dictionary["TCA_pos"] = sample .*ones(12,1)
@@ -137,7 +134,7 @@ function solve_moma_problem(dt,tEND,case)
     number_of_species, number_of_fluxes = size(data_dictionary["stoichiometric_matrix"])
 
     data_dictionary["Enzyme_sample"] = 1.25 + rand(1)[1]*(0.5)
-	sample = 1.0 + rand(1)[1]*(1)
+	sample = 1.5 + rand(1)[1]*(0.5)
     data_dictionary["AA_pos"] = sample .*ones(20,1)
     data_dictionary["AA_neg"] = sample .*ones(20,1)
     data_dictionary["TCA_pos"] = sample .*ones(12,1)
@@ -145,9 +142,12 @@ function solve_moma_problem(dt,tEND,case)
     data_dictionary["GLY_pos"] = sample .*ones(13,1)
     data_dictionary["GLY_neg"] = sample .*ones(13,1)
     data_dictionary["ENERGY_pos"] = sample .*ones(12,1)
-    data_dictionary["ENERGY_neg"] = sample .*[1,1,1,1,1,1,1,1,1,1,1,4]
+	data_dictionary["ENERGY_neg"] = sample .*ones(12,1)
     data_dictionary["REDUCING_pos"] = sample .*ones(4,1)
     data_dictionary["REDUCING_neg"] = sample .*ones(4,1)
+
+	# relax constraint on UMP species to allow mRNA to degrade
+    data_dictionary["ENERGY_neg"][12] = data_dictionary["ENERGY_neg"][12]*3.0
 
     t_vec = collect(0:dt:tEND*dt)
 
@@ -209,7 +209,7 @@ end
 case = "dnp"
 dt = 0.1 # hr
 tEND = convert(Int64,16/dt)
-no_samples = 100
+no_samples = 10
 t_sim = collect(0:dt:tEND*dt)
 
 # execute solver -

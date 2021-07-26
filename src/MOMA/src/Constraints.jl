@@ -16,8 +16,10 @@ function update_bounds_array(data_dictionary::Dict{String,Any}, TXTL_dictionary,
     if case == "control"
         data_dictionary = Bounds_control(data_dictionary,TXTL_dictionary,species_array,time_index);
     elseif case == "dnp"
+        data_dictionary = Bounds_control(data_dictionary,TXTL_dictionary,species_array,time_index);
         data_dictionary = Bounds_DNP(data_dictionary,TXTL_dictionary,species_array,time_index);
     elseif case == "tta"
+        data_dictionary = Bounds_control(data_dictionary,TXTL_dictionary,species_array,time_index);
         data_dictionary = Bounds_TTA(data_dictionary,TXTL_dictionary,species_array,time_index);
     end
 

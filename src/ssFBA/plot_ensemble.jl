@@ -5,7 +5,7 @@ using Statistics
 using DelimitedFiles
 #===================Find mean and CI for Ensemble==================#
 t_sim = collect(0.0:0.1:16)
-case = "tta"
+case = "control"
 S1 = readdlm("Ensemble/$(case)/Species_1.txt")
 no_time, no_species = size(S1)
 no_samples = 100
@@ -35,13 +35,18 @@ elseif case == "control"
     shade = "powderblue"
     lcolor = markercolor
 end
+
+markercolor = "black"
+shade = "powderblue"
+lcolor = "black"
+
 linestyle = "-"
 
 #0 = no
 #1 = yes
 plotline = 1
 plotsave =  0
-filedir = "Figs/all"
+filedir = "Figs/"
 savecase = "$(case)"
 #--------------------mRNA & GFP----------------------------#
 gfp = CSV.read("FinalDATA/Data/$(case)_mRNA_protein.dat")

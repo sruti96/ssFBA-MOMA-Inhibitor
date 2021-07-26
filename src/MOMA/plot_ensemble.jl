@@ -36,10 +36,19 @@ t = [0;2;4;8;16]
 #     shade = "#783937FF"
 #     lcolor = "#783937FF"
 # end
+# markercolor = "black"
+# shade = "powderblue"
+# lcolor = "black"
 
-markercolor = "black"
-shade = "powderblue"
-lcolor = "black"
+if case == "tta"
+    markercolor = "dimgrey"
+    shade = "lightgrey"
+    lcolor = "dimgrey"
+elseif case == "dnp"
+    markercolor = "darkred"
+    shade = "lightpink"
+    lcolor = "darkred"
+end
 
 #0 = no
 #1 = yes
@@ -56,19 +65,19 @@ gfp_sim_idx = [152;148] #Species index for mRNA and GFP
 row = 1
 col = 2
 
-figure(1,figsize=(7,3))
+figure(1,figsize=(6.5,2.5))
 for idx = 1:2
     subplot(row,col,idx)
     ylabel(names(gfp)[idx])
     errorbar(t, mean_gfp[:,idx], yerr=error_gfp[:,idx],fmt="o",markersize = 3,capsize=2,elinewidth=1,color=markercolor, label="Experimental Data")
     if idx == 1
         if plotline == 1
-             plot(t_sim,Species_mean[:,gfp_sim_idx[idx]]*1e6,color=lcolor, label="Mean of Ensemble")
+             plot(t_sim,Species_mean[:,gfp_sim_idx[idx]]*1e6,color=lcolor, label="TTA")
              axis([0,16.0,0,1000])
              xticks([0,4,8,12,16])
              yticks([0,300,600,900])
         end
-        fill_between(t_sim,Species_pos[:,gfp_sim_idx[idx]]*1e6,Species_neg[:,gfp_sim_idx[idx]]*1e6,color=shade,alpha=0.5,linewidth=0, label="96% CI of Ensemble")
+        fill_between(t_sim,Species_pos[:,gfp_sim_idx[idx]]*1e6,Species_neg[:,gfp_sim_idx[idx]]*1e6,color=shade,alpha=0.5,linewidth=0, label="95% CI of Ensemble")
         legend(loc=1, frameon=false, fontsize=8)
     else
         if plotline == 1
@@ -101,7 +110,7 @@ end
 #     subplot(row,col,idx)
 #     ylabel(names(aa)[idx])
 #     errorbar(t, mean_aa[:,idx], yerr=error_aa[:,idx],fmt="o",markersize=3,capsize=2,elinewidth=1,color=markercolor)
-#     # fill_between(t_sim,Species_pos[:,aa_sim_idx[idx]],Species_neg[:,aa_sim_idx[idx]],color=shade,linewidth=0,alpha = 0.2)
+#     fill_between(t_sim,Species_pos[:,aa_sim_idx[idx]],Species_neg[:,aa_sim_idx[idx]],color=shade,linewidth=0,alpha = 0.2)
 #     if plotline == 1
 #         plot(t_sim,Species_mean[:,aa_sim_idx[idx]],color=lcolor)
 #     end
@@ -139,7 +148,7 @@ end
 #     savefig("$(filedir)/$(case)_aa.pdf")
 #     close()
 # end
-
+#
 # #--------------------Energy Species---------------------------#
 # row = 3
 # col = 4
@@ -156,7 +165,7 @@ end
 #     subplot(row,col,idx)
 #     ylabel(names(energy)[idx])
 #     errorbar(t, mean_energy[:,idx], yerr=error_energy[:,idx],fmt="o",markersize=3,capsize=2,elinewidth=1,color=markercolor)
-#     # fill_between(t_sim,Species_pos[:,energy_sim_idx[idx][1]],Species_neg[:,energy_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
+#     fill_between(t_sim,Species_pos[:,energy_sim_idx[idx][1]],Species_neg[:,energy_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
 #     if plotline == 1
 #         plot(t_sim,Species_mean[:,energy_sim_idx[idx][1]],color=lcolor)
 #     end
@@ -175,7 +184,7 @@ end
 #     savefig("$(filedir)/$(case)_energy.pdf")
 #     close()
 # end
-
+#
 # #--------------------Glycolysis---------------------------#
 # row = 4
 # col = 3
@@ -196,7 +205,7 @@ end
 #     subplot(row,col,idx)
 #     ylabel(names(gly)[idx])
 #     errorbar(t, mean_gly[:,idx], yerr=error_gly[:,idx],fmt="o",markersize=3,capsize=2,elinewidth=1,color=markercolor)
-#     # fill_between(t_sim,Species_pos[:,gly_sim_idx[idx][1]],Species_neg[:,gly_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
+#     fill_between(t_sim,Species_pos[:,gly_sim_idx[idx][1]],Species_neg[:,gly_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
 #     if plotline == 1
 #         plot(t_sim,Species_mean[:,gly_sim_idx[idx][1]],color=lcolor)
 #     end
@@ -237,7 +246,7 @@ end
 #     savefig("$(filedir)/$(case)_gly.pdf")
 #     close()
 # end
-
+#
 # #--------------------Reducing Power---------------------------#
 # row = 2
 # col = 2
@@ -258,7 +267,7 @@ end
 #     subplot(row,col,idx)
 #     ylabel(names(reducing)[idx])
 #     errorbar(t, mean_reducing[:,idx], yerr=error_reducing[:,idx],fmt="o",markersize=3,capsize=2,elinewidth=1,color=markercolor)
-#     # fill_between(t_sim,Species_pos[:,reducing_sim_idx[idx][1]],Species_neg[:,reducing_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
+#     fill_between(t_sim,Species_pos[:,reducing_sim_idx[idx][1]],Species_neg[:,reducing_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
 #     if plotline == 1
 #         plot(t_sim,Species_mean[:,reducing_sim_idx[idx][1]],color=lcolor)
 #     end
@@ -279,7 +288,7 @@ end
 #     savefig("$(filedir)/$(case)_nad.pdf")
 #     close()
 # end
-
+#
 # #-------------------TCA---------------------------#
 # row = 4
 # col = 3
@@ -299,7 +308,7 @@ end
 #     subplot(row,col,idx)
 #     ylabel(names(tca)[idx])
 #     errorbar(t, mean_tca[:,idx], yerr=error_tca[:,idx],fmt="o",markersize=3,capsize=2,elinewidth=1,color=markercolor)
-#     # fill_between(t_sim,Species_pos[:,tca_sim_idx[idx][1]],Species_neg[:,tca_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
+#     fill_between(t_sim,Species_pos[:,tca_sim_idx[idx][1]],Species_neg[:,tca_sim_idx[idx][1]],color=shade,linewidth=0,alpha = 0.2)
 #     if plotline == 1
 #         plot(t_sim,Species_mean[:,tca_sim_idx[idx][1]],color=lcolor)
 #     end

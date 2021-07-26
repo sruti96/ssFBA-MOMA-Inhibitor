@@ -47,7 +47,7 @@ function solve_dynamic_problem(dt,tEND,case)
     number_of_species, number_of_fluxes = size(data_dictionary["stoichiometric_matrix"])
 
     data_dictionary["Enzyme_sample"] = 1.25 + rand(1)[1]*(0.5)
-	sample = 1.0 + rand(1)[1]*(1)
+	sample = 1.0 + rand(1)[1]*(1.0)
     data_dictionary["AA_pos"] = sample .*ones(20,1)
     data_dictionary["AA_neg"] = sample .*ones(20,1)
     data_dictionary["TCA_pos"] = sample .*ones(12,1)
@@ -136,7 +136,7 @@ function solve_moma_problem(dt,tEND,case)
     data_dictionary["GLY_pos"] = sample .*ones(13,1)
     data_dictionary["GLY_neg"] = sample .*ones(13,1)
     data_dictionary["ENERGY_pos"] = sample .*ones(12,1)
-    data_dictionary["ENERGY_neg"] = sample .*ones(12,1)
+	data_dictionary["ENERGY_neg"] = sample .*ones(12,1)
     data_dictionary["REDUCING_pos"] = sample .*ones(4,1)
     data_dictionary["REDUCING_neg"] = sample .*ones(4,1)
 
@@ -181,7 +181,7 @@ end
 
 function run_ensemble(dt,tEND,case,no_samples)
 
-    i = 1
+    i = 84
     while i <= no_samples
         moma_objective_time, moma_flux_time, moma_uptake_time, species_array, flux_time, species_time, status_array = solve_moma_problem(dt,tEND,case);
 
