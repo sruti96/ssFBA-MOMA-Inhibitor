@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg4170"
+   sodipodi:docname="moma_schematic_v3.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   inkscape:export-filename="/Users/srutidammalapati/moma_schematic_v2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4172"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67616664"
+     inkscape:cx="256.59355"
+     inkscape:cy="387.47845"
+     inkscape:window-width="1312"
+     inkscape:window-height="784"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4167">
+    <rect
+       x="164.17213"
+       y="18.721384"
+       width="584.68321"
+       height="512.67789"
+       id="rect88044" />
+    <rect
+       x="171.37267"
+       y="18.721384"
+       width="560.2014"
+       height="516.99821"
+       id="rect85906" />
+    <rect
+       x="89.286599"
+       y="531.39927"
+       width="581.803"
+       height="538.59981"
+       id="rect83546" />
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1474" />
+    </marker>
+    <rect
+       x="530.64977"
+       y="557.10876"
+       width="381.34252"
+       height="23.012901"
+       id="rect15322" />
+    <rect
+       x="662.94473"
+       y="532.11972"
+       width="66.147479"
+       height="57.327815"
+       id="rect12715" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path1486" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4146"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4144" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path1486-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4959"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4957" />
+    </marker>
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="326.09843"
+       height="48.645091"
+       id="rect15322-1" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="94.405345"
+       height="53.553519"
+       id="rect15322-1-4" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="53.4361"
+       height="25.678969"
+       id="rect15322-1-4-0" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="53.4361"
+       height="25.678968"
+       id="rect15322-1-4-0-7" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="53.4361"
+       height="25.678968"
+       id="rect15322-1-4-0-7-9" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="53.4361"
+       height="25.678968"
+       id="rect15322-1-4-0-7-8" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="53.4361"
+       height="25.678968"
+       id="rect15322-1-4-0-7-2" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="121.42187"
+       height="56.051283"
+       id="rect15322-1-4-7" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="207.19569"
+       height="46.937846"
+       id="rect15322-1-4-7-6" />
+    <rect
+       x="530.64978"
+       y="557.10876"
+       width="181.2738"
+       height="69.944174"
+       id="rect15322-1-4-7-6-0" />
+    <marker
+       style="overflow:visible"
+       id="marker4146-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4144-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4146-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4144-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4146-7-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4144-5-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4146-7-3-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4144-5-4-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4146-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4144-0" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-4)"
+       d="M 61.937077,146.38396 V 11.015353"
+       id="path411-5"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.700001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-4)"
+       d="M 54.485347,138.95489 H 189.84335"
+       id="path413-8"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.281401,59.747069 29.637728,8.97294 52.477841,58.187901 4.0786,12.23576 v -0.2719 0"
+       id="path1775-7"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 61.48033,44.262918 30.997255,4.07862 36.707305,14.139251 31.26919,59.547441 v 16.31436 l -0.27191,-0.27191 h 0.27191"
+       id="path1777-2"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#cacaca;fill-opacity:1;stroke-width:0.499999"
+       d="m 148.36186,138.01618 c -0.0835,-0.22192 -0.98676,-2.90616 -2.00723,-5.96499 L 144.49922,126.48967 118.20918,97.340226 91.919129,68.190842 76.976545,63.684197 62.03396,59.177549 l -0.0024,-7.32291 -0.0024,-7.32291 1.049028,0.159864 c 0.576966,0.08792 7.45676,1.005168 15.288432,2.038321 l 14.239401,1.878462 18.266519,7.040594 18.26652,7.040597 15.51649,29.553474 15.51649,29.553529 -0.0388,8.31154 -0.0388,8.31154 H 154.304 c -4.33625,0 -5.82864,-0.10133 -5.94234,-0.40347 z"
+       id="path5080"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.499977,99.30475 V 60.34763 l 1.636906,0.533588 c 0.900298,0.293473 4.717259,1.465789 8.482139,2.605148 3.764881,1.139357 9.566855,2.89836 12.893278,3.908894 l 6.048042,1.837332 26.145158,29.008687 26.14515,29.008741 1.84197,5.50595 1.84197,5.50595 h -42.5173 -42.517313 z"
+       id="path5451"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="display:inline;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1892-6"
+       cx="105.90421"
+       cy="84.288666"
+       rx="2.0499265"
+       ry="1.8922399"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="display:inline;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1892-8-0"
+       cx="90.860786"
+       cy="68.719719"
+       rx="2.0499265"
+       ry="1.8922399"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="display:inline;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1892-0-2"
+       cx="129.714"
+       cy="62.480625"
+       rx="2.0499265"
+       ry="1.8922399"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g5041"
+       transform="translate(-0.52916673,10.583334)"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 76.362862,23.924516 175.96528,76.124531 175.37592,75.54774"
+         id="path2041-2" />
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 164.46786,96.510789 65.755352,44.016269 h 0.285298"
+         id="path2043-3" />
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 129.71406,62.480789 -23.69053,21.78965 v 0"
+       id="path2158-2"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-52.44834,-136.46324)"
+       id="text15320"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect15322);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="530.65039"
+         y="574.13957"
+         id="tspan3743">Feasible space of the perturbed system</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-52.559497,-129.44346)"
+       id="text15320-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect15322-1);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="530.65039"
+         y="574.13957"
+         id="tspan3745">Feasible space of the wild-type</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,19.917585,-81.644808)"
+       id="text15320-8-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect15322-1-4);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       x="41.56258"
+       y="0"><tspan
+         x="530.43839"
+         y="574.13957"
+         id="tspan3747">Objective 
+</tspan><tspan
+         x="540.06341"
+         y="597.47295"
+         id="tspan3749">function</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.71464,-105.70921)"
+       id="text15320-8-2-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect15322-1-4-7);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       x="56.629005"
+       y="0"><tspan
+         x="533.10081"
+         y="574.13957"
+         id="tspan3751">FBA solution
+</tspan><tspan
+         x="539.44457"
+         y="597.47295"
+         id="tspan3753">(wild-type)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-74.532552,-55.215659)"
+       id="text15320-8-2-4-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect15322-1-4-7-6);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       x="68.774208"
+       y="0"><tspan
+         x="564.64896"
+         y="574.13957"
+         id="tspan3755">MOMA solution </tspan><tspan
+         x="579.61514"
+         y="597.47295"
+         id="tspan3757">(perturbed)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-85.64505,-70.56146)"
+       id="text15320-8-2-4-4-0"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect15322-1-4-7-6-0);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       x="57.43565"
+       y="0"><tspan
+         x="563.02659"
+         y="574.13957"
+         id="tspan3759">FBA solution </tspan><tspan
+         x="566.6542"
+         y="597.47295"
+         id="tspan3761">(perturbed)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-13.127604,-81.526368)"
+       id="text15320-8-2-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect15322-1-4-0);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="530.65039"
+         y="576.57239"
+         id="tspan3763">A</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-29.96842,-65.371395)"
+       id="text15320-8-2-8-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect15322-1-4-0-7);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="530.65039"
+         y="576.57239"
+         id="tspan3765">B</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,43.469704,-3.3751449)"
+       id="text15320-8-2-8-7-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect15322-1-4-0-7-8);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="530.65039"
+         y="576.57239"
+         id="tspan3769">V<tspan
+   style="baseline-shift:sub"
+   id="tspan3767">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-49.547587,-87.067227)"
+       id="text15320-8-2-8-7-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect15322-1-4-0-7-9);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="530.65039"
+         y="576.57239"
+         id="tspan3771">C</tspan></text>
+    <rect
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect22573"
+       width="4.3242846"
+       height="4.450161"
+       x="80.326874"
+       y="11.302526"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#cacaca;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect22573-8"
+       width="4.3242846"
+       height="4.450161"
+       x="80.326874"
+       y="18.494026"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-91.431531,-135.28956)"
+       id="text15320-8-2-8-7-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect15322-1-4-0-7-2);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="530.65039"
+         y="576.57239"
+         id="tspan3775">V<tspan
+   style="baseline-shift:sub"
+   id="tspan3773">2</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4146)"
+       d="m 100.96421,92.040502 c 3.43891,-5.365881 3.43891,-5.365881 3.43891,-5.365881"
+       id="path63260"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4146-2)"
+       d="m 86.004764,76.715141 c 3.43891,-5.365881 3.43891,-5.365881 3.43891,-5.365881"
+       id="path63260-6"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4146-7-3)"
+       d="m 133.28749,53.354191 c -2.58596,6.253551 -2.58596,6.253551 -2.58596,6.253551"
+       id="path63260-5-0"
+       inkscape:export-filename="/Users/srutidammalapati/moma_schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text83544"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect83546)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text85904"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect85906)"
+       inkscape:export-filename="/Users/srutidammalapati/fig-moma-schematic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text88042"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect88044)" />
+  </g>
+</svg>
