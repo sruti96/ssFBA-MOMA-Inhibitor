@@ -9,10 +9,10 @@ using PyCall
 function BuildFluxData(TXTL,case,t_array)
 
     data_t = [0.0;2.0;4.0;8.0;16.0;]; #Time points of data
-    data_met = CSV.read("config/SpeciesDict/$(case)_metabolites.dat")[1:5,:]
-    data_aa = CSV.read("config/SpeciesDict/$(case)_aa.dat")[1:5,:]
-    data_mrna = CSV.read("FinalDATA/Data/$(case)_mRNA_protein.dat")[1:5,1]
-    deletecols!(data_met,:FAD)
+    data_met = DataFrame(CSV.File("config/SpeciesDict/$(case)_metabolites.dat",drop=[:FAD]))[1:5,:]
+    data_aa = DataFrame(CSV.File("config/SpeciesDict/$(case)_aa.dat"))[1:5,:]
+    data_mrna = DataFrame(CSV.File("FinalDATA/Data/$(case)_mRNA_protein.dat"))[1:5,1]
+    #deletecols!(data_met,:FAD)
 
     no_mets = length(data_met[1,:])
     no_aa = length(data_aa[1,:])
@@ -90,7 +90,7 @@ function BuildFluxData(TXTL,case,t_array)
         flux_mrna[flux_idx,:] .= (sim_mrna_smooth[flux_idx+1,:] - sim_mrna_smooth[flux_idx,:])/(t_array[flux_idx+1]-t_array[flux_idx])
     end
     #================Find Species Index=======================#
-    network_idx = CSV.read("config/Reactions.txt",header=[Symbol("idx"),Symbol("rxn_name"),Symbol("substrate"),Symbol("arrow"),Symbol("product")])
+    network_idx = DataFrame(CSV.File("config/Reactions.txt",header=[Symbol("idx"),Symbol("rxn_name"),Symbol("substrate"),Symbol("arrow"),Symbol("product")]))
 
     AA_name = readdlm("config/SpeciesDict/AA_name_internal.txt")
     Met_name  = readdlm("config/SpeciesDict/Met_name_internal.txt")
