@@ -49,7 +49,7 @@ plotsave =  0
 filedir = "Figs/"
 savecase = "$(case)"
 #--------------------mRNA & GFP----------------------------#
-gfp = CSV.read("FinalDATA/Data/$(case)_mRNA_protein.dat")
+gfp = DataFrame(CSV.File("FinalDATA/Data/$(case)_mRNA_protein.dat"))
 mean_gfp = gfp[1:5,:]
 error_gfp = gfp[6:10,:]
 gfp_sim_idx = [152;148] #Species index for mRNA and GFP
@@ -93,7 +93,7 @@ end
 row = 5
 col = 4
 
-aa = CSV.read("FinalDATA/Data/$(case)_aa.dat")
+aa = DataFrame(CSV.File("FinalDATA/Data/$(case)_aa.dat"))
 mean_aa = aa[1:5,:]
 error_aa = aa[6:10,:]
 aa_sim_idx = convert(Array{Int64},readdlm("config/SpeciesDict/aa_index.dat"))
@@ -144,7 +144,7 @@ end
 row = 3
 col = 4
 Energy_index = readdlm("config/SpeciesDict/energy_idx.dat")
-energy = CSV.read("FinalDATA/Data/$(case)_energy.dat")
+energy = DataFrame(CSV.File("FinalDATA/Data/$(case)_energy.dat"))
 mean_energy = energy[1:5,:]
 error_energy = energy[6:10,:]
 energy_sim_idx = Array{Int64}[]
@@ -179,7 +179,7 @@ end
 row = 4
 col = 3
 
-gly = CSV.read("FinalDATA/Data/$(case)_gly.dat")
+gly = DataFrame(CSV.File("FinalDATA/Data/$(case)_gly.dat"))
 deletecols!(gly,"E4P (mM)")
 mean_gly = gly[1:5,:]
 error_gly = gly[6:10,:]
@@ -240,7 +240,7 @@ end
 row = 2
 col = 2
 
-reducing = CSV.read("FinalDATA/Data/$(case)_reducing.dat")
+reducing = DataFrame(CSV.File("FinalDATA/Data/$(case)_reducing.dat"))
 deletecols!(reducing,"FAD (mM)")
 mean_reducing = reducing[1:5,:]
 error_reducing = reducing[6:10,:]
@@ -281,7 +281,7 @@ end
 row = 4
 col = 3
 
-tca = CSV.read("FinalDATA/Data/$(case)_tca.dat")
+tca = DataFrame(CSV.File("FinalDATA/Data/$(case)_tca.dat"))
 mean_tca = tca[1:5,:]
 error_tca = tca[6:10,:]
 

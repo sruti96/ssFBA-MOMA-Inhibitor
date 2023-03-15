@@ -57,7 +57,7 @@ plotsave =  0
 filedir = "Figures"
 
 #--------------------mRNA & GFP----------------------------#
-gfp = CSV.read("FinalDATA/Data/$(case)_mRNA_protein.dat")
+gfp = DataFrame(CSV.File("FinalDATA/Data/$(case)_mRNA_protein.dat"))
 mean_gfp = gfp[1:5,:]
 error_gfp = gfp[6:10,:]
 gfp_sim_idx = [152;148] #Species index for mRNA and GFP
